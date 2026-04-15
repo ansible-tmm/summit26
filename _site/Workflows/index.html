@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title | default: site.title }}</title>
+    <title>Workflows — Summit Booth Themes</title>
     <style>
       body {
         margin: 0;
@@ -217,30 +217,52 @@
       .relevant-links h3 {
         margin-top: 0;
       }
+      .arcade-cta {
+        margin-top: 20px;
+        padding-top: 16px;
+        border-top: 1px solid #e0e0e0;
+      }
+      .arcade-cta a {
+        font-weight: 600;
+      }
     </style>
   </head>
   <body>
     <header class="site-header">
       <div class="wrapper header-inner">
-        <h1><a class="site-title-link" href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <h1><a class="site-title-link" href="/summit-booth-themes/">Summit Booth Themes</a></h1>
       </div>
       <nav class="site-nav" aria-label="Booth themes">
         <div class="wrapper site-nav-inner">
           <ul class="site-nav-list">
-            <li><a class="site-nav-link{% if page.theme == 'aiops' %} active{% endif %}" href="{{ '/AIOps/' | relative_url }}">A · AIOps</a></li>
-            <li><a class="site-nav-link{% if page.theme == 'workflows' %} active{% endif %}" href="{{ '/Workflows/' | relative_url }}">B · Workflows</a></li>
-            <li><a class="site-nav-link{% if page.theme == 'developer-experience' %} active{% endif %}" href="{{ '/Developer-Experience/' | relative_url }}">C · Developer experience</a></li>
-            <li><a class="site-nav-link{% if page.theme == 'policy-governance' %} active{% endif %}" href="{{ '/Policy-and-governance/' | relative_url }}">D · Policy &amp; governance</a></li>
-            <li><a class="site-nav-link{% if page.theme == 'infrastructure-network' %} active{% endif %}" href="{{ '/Infrastructure-and-network/' | relative_url }}">E · Infrastructure &amp; network</a></li>
-            <li><a class="site-nav-link{% if page.theme == 'aap-on-cloud' %} active{% endif %}" href="{{ '/AAP-on-cloud/' | relative_url }}">F · AAP on cloud</a></li>
-            <li><a class="site-nav-link{% if page.theme == 'metrics-telemetry' %} active{% endif %}" href="{{ '/Metrics-and-telemetry/' | relative_url }}">G · Metrics &amp; telemetry</a></li>
-            <li><a class="site-nav-link{% if page.theme == 'aap-101' %} active{% endif %}" href="{{ '/AAP-101/' | relative_url }}">H · AAP 101</a></li>
+            <li><a class="site-nav-link" href="/summit-booth-themes/AIOps/">A · AIOps</a></li>
+            <li><a class="site-nav-link active" href="/summit-booth-themes/Workflows/">B · Workflows</a></li>
+            <li><a class="site-nav-link" href="/summit-booth-themes/Developer-Experience/">C · Developer experience</a></li>
+            <li><a class="site-nav-link" href="/summit-booth-themes/Policy-and-governance/">D · Policy &amp; governance</a></li>
+            <li><a class="site-nav-link" href="/summit-booth-themes/Infrastructure-and-network/">E · Infrastructure &amp; network</a></li>
+            <li><a class="site-nav-link" href="/summit-booth-themes/AAP-on-cloud/">F · AAP on cloud</a></li>
+            <li><a class="site-nav-link" href="/summit-booth-themes/Metrics-and-telemetry/">G · Metrics &amp; telemetry</a></li>
+            <li><a class="site-nav-link" href="/summit-booth-themes/AAP-101/">H · AAP 101</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <main class="wrapper">
-      {{ content }}
+      <section class="theme-page">
+  <h2>Theme B - Automation Workflows and Orchestration</h2>
+  <div class="split">
+    <div class="card">
+      <h3>Workflow and Orchestration Overview Video</h3>
+      <p class="small">Status: not started</p>
+    </div>
+  </div>
+</section>
+
+<p class="arcade-cta">
+  <a href="https://ansible-tmm.github.io/ansible-f1/Workflows/" target="_blank" rel="noopener noreferrer">Built to Automate arcade — Workflows (Level B)</a>
+</p>
+
+
     </main>
   </body>
 </html>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="400" height="225" role="img" aria-labelledby="t3">
+  <title id="t3">AAP on Azure managed app: Subscription Activation</title>
+  <defs>
+    <linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#1c1c1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="225" fill="url(#g3)"/>
+  <rect x="0" y="0" width="6" height="225" fill="#ee0000"/>
+  <text x="24" y="42" fill="#fff" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="11" font-weight="600">RED HAT</text>
+  <text x="24" y="58" fill="#c9c9c9" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="9">Ansible Automation Platform</text>
+  <text x="24" y="108" fill="#fff" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">AAP on Azure (managed app)</text>
+  <text x="24" y="128" fill="#fff" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">Subscription Activation</text>
+  <text x="24" y="178" fill="#4fc3f7" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="10" font-weight="600">Microsoft Azure</text>
+</svg>
