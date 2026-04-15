@@ -217,13 +217,37 @@
       .relevant-links h3 {
         margin-top: 0;
       }
-      .arcade-cta {
+      .race-cta {
         margin-top: 20px;
-        padding-top: 16px;
-        border-top: 1px solid #e0e0e0;
+        padding: 14px 16px;
+        border: 1px solid #d2d2d2;
+        border-radius: 6px;
+        background: linear-gradient(180deg, #fafafa 0%, #f0f0f0 100%);
+        text-align: center;
       }
-      .arcade-cta a {
-        font-weight: 600;
+      .race-cta-lead {
+        margin: 0 0 10px;
+        font-size: 0.95rem;
+        color: #4f5255;
+      }
+      .race-cta-link {
+        display: inline-block;
+        font-weight: 700;
+        font-size: 1rem;
+        color: #fff;
+        background: #ee0000;
+        text-decoration: none;
+        padding: 10px 18px;
+        border-radius: 6px;
+        border: 1px solid #c00;
+      }
+      .race-cta-link:hover {
+        background: #cc0000;
+        color: #fff;
+      }
+      .race-cta-link:focus-visible {
+        outline: 2px solid #06c;
+        outline-offset: 2px;
       }
     </style>
   </head>
@@ -267,11 +291,16 @@
   </div>
 </section>
 
-<p class="arcade-cta">
-  <a href="https://ansible-tmm.github.io/ansible-f1/AIOps/" target="_blank" rel="noopener noreferrer">Built to Automate arcade — AIOps (Level A)</a>
-</p>
+      
+        
+
+<section class="race-cta" aria-label="Arcade game link">
+  <p class="race-cta-lead">Try the theme in the booth arcade game.</p>
+  <a class="race-cta-link" href="https://abwalczyk.github.io/ansible-f1/AIOps/">Let’s race — Built to Automate</a>
+</section>
 
 
+      
     </main>
   </body>
 </html>

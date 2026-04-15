@@ -1,0 +1,7 @@
+{% assign slug = site.data.race.paths[page.theme] %}
+{% if slug %}
+<section class="race-cta" aria-label="Arcade game link">
+  <p class="race-cta-lead">Try the theme in the booth arcade game.</p>
+  <a class="race-cta-link" href="{{ site.ansible_f1_game_base }}/{{ slug }}/">Let’s race — Built to Automate</a>
+</section>
+{% endif %}

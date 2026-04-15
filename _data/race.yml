@@ -1,0 +1,10 @@
+# Path segment on ansible-f1 GitHub Pages (must match game theme URLs)
+paths:
+  aiops: AIOps
+  workflows: Workflows
+  developer-experience: Developer-Experience
+  policy-governance: Policy-and-governance
+  infrastructure-network: Infrastructure-and-network
+  aap-on-cloud: AAP-on-cloud
+  metrics-telemetry: Metrics-and-telemetry
+  aap-101: AAP-101
