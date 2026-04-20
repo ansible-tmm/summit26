@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Policy & governance — Summit Booth Themes
+title: "Governance & compliance — Summit Booth Themes"
 theme: policy-governance
 ---
 
 <section class="theme-page">
-  <h2>Theme D - Policy, Governance, and Compliance</h2>
+  <h2>Theme D - Governance & compliance</h2>
   <div class="split">
     <div class="card">
       <h3>Security Automation Overview</h3>

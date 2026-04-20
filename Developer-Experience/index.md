@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Developer Experience — Summit Booth Themes
+title: Developer experience — Summit Booth Themes
 theme: developer-experience
 ---
 
 <section class="theme-page">
-  <h2>Theme C - Developer Experience</h2>
+  <h2>Theme C - Developer experience</h2>
   <div class="split">
     <div class="card">
       <h3>Anshul Demo: Claude / RHEL AI on Vertex in VS Code Extension</h3>

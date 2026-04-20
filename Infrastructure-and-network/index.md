@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Infrastructure & network — Summit Booth Themes
+title: "Network & infrastructure — Summit Booth Themes"
 theme: infrastructure-network
 ---
 
 <section class="theme-page">
-  <h2>Theme E - Infrastructure and Network Automation</h2>
+  <h2>Theme E - Network & infrastructure</h2>
   <div class="split">
     <div class="card">
       <h3>Overview Arcade for Virtual Infrastructure Management</h3>

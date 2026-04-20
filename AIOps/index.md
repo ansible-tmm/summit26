@@ -1,11 +1,11 @@
 ---
 layout: default
-title: AIOps — Summit Booth Themes
+title: AIOps with Red Hat Ansible — Summit Booth Themes
 theme: aiops
 ---
 
 <section class="theme-page">
-  <h2>Theme A - AIOps</h2>
+  <h2>Theme A - AIOps with Red Hat Ansible</h2>
   <div class="split">
     <div class="card">
       <h3>Automation for AIOps</h3>

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Metrics & telemetry — Summit Booth Themes
+title: "Automation ROI — Summit Booth Themes"
 theme: metrics-telemetry
 ---
 
 <section class="theme-page">
-  <h2>Theme G - Metrics and Telemetry</h2>
+  <h2>Theme G - Automation ROI</h2>
   <div class="split">
     <div class="card">
       <h3>Automation Dashboard</h3>

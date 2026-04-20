@@ -1,11 +1,11 @@
 ---
 layout: default
-title: AAP 101 — Summit Booth Themes
+title: Red Hat Ansible 101 — Summit Booth Themes
 theme: aap-101
 ---
 
 <section class="theme-page">
-  <h2>Theme H - AAP 101 (Operator/Ops Team)</h2>
+  <h2>Theme H - Red Hat Ansible 101</h2>
   <div class="split">
     <div class="card">
       <h3>Automation Intelligent Assistant</h3>

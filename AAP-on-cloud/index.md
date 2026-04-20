@@ -1,11 +1,11 @@
 ---
 layout: default
-title: AAP on cloud — Summit Booth Themes
+title: Cloud automation — Summit Booth Themes
 theme: aap-on-cloud
 ---
 
 <section class="theme-page theme-cloud">
-  <h2 class="cloud-page-title">Cloud Automation</h2>
+  <h2 class="cloud-page-title">Cloud automation</h2>
   <div class="demo-card-grid">
     <a class="demo-card" href="https://interact.redhat.com/share/QIkx7TMuu22RDi0nUjRA" target="_blank" rel="noopener">
       <div class="demo-card-media">
