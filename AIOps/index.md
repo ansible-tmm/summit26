@@ -1,11 +1,11 @@
 ---
 layout: default
-title: AIOps — Red Hat Ansible
+title: AIOps with Red Hat Ansible
 theme: aiops
 ---
 
 <section class="theme-page theme-cloud">
-  <h2 class="cloud-page-title">AIOps</h2>
+  <h2 class="cloud-page-title">AIOps with Red Hat Ansible</h2>
   <div class="demo-card-grid">
     <a class="demo-card" href="https://demo.arcade.software/iv4MGA8BVPeEtdjNYmBM" target="_blank" rel="noopener">
       <div class="demo-card-media demo-card-media-placeholder instana-accent" aria-hidden="true"></div>
