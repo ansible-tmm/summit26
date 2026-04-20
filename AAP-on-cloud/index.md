@@ -29,14 +29,4 @@ theme: aap-on-cloud
       <p class="demo-card-desc">Set up Ansible Automation Platform on Azure by launching the managed application, monitoring deployment via the Deployment Engine, and activating your subscription through the Red Hat Hybrid Cloud Console.</p>
     </a>
   </div>
-  <div class="relevant-links">
-    <h3>Relevant links</h3>
-    <ul>
-      <li><a href="#" target="_blank" rel="noopener">Placeholder link 1</a></li>
-      <li><a href="#" target="_blank" rel="noopener">Placeholder link 2</a></li>
-      <li><a href="#" target="_blank" rel="noopener">Placeholder link 3</a></li>
-      <li><a href="#" target="_blank" rel="noopener">Placeholder link 4</a></li>
-      <li><a href="#" target="_blank" rel="noopener">Placeholder link 5</a></li>
-    </ul>
-  </div>
 </section>
