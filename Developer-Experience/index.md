@@ -27,7 +27,9 @@ theme: developer-experience
     <h3 class="demo-section-title">Arcade &amp; interactive</h3>
     <div class="demo-card-grid">
       <a class="demo-card" href="https://app.arcade.software/share/iKoPpilaNueRFTUzWnqL?ref=share-link" target="_blank" rel="noopener">
-        <div class="demo-card-media demo-card-media-placeholder booth-placeholder-alt2" aria-hidden="true"></div>
+        <div class="demo-card-media">
+          <img src="{{ '/assets/images/arcade-title-slides/slide-031.png' | relative_url }}" width="800" height="450" alt="" loading="lazy" />
+        </div>
         <h4 class="demo-card-title">Installing Ansible Dev Container in VS Code</h4>
         <p class="demo-card-desc">Set up a portable Ansible development environment in VS Code with the Ansible Dev Container (Podman or Docker) for playbook and role development across platforms.</p>
       </a>
