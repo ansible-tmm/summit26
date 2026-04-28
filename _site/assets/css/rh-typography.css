@@ -40,7 +40,8 @@ textarea {
 .site-brand-name,
 .theme-page > h2,
 .theme-page h2:first-of-type,
-.theme-page.theme-cloud .cloud-page-title {
+.theme-page.theme-cloud .cloud-page-title,
+.demo-section-title {
   font-family: var(--font-display, "Red Hat Display", system-ui, sans-serif) !important;
 }
 
