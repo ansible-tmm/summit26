@@ -37,7 +37,7 @@ theme: developer-experience
         <h3 class="demo-card-title">Talk to your Ansible Automation Platform with AI — Copilot Studio + MCP</h3>
         <p class="demo-card-desc">Connect your LLM to AAP using an MCP server and Microsoft Copilot Studio: API tokens, custom connectors, OpenAPI, Bearer auth, and real automation queries.</p>
       </a>
-      <a class="demo-card" href="{{ site.ansible_f1_game_base }}/Developer-Experience/" target="_blank" rel="noopener">
+      <a class="demo-card" href="https://www.youtube.com/watch?v=ZoNUCNIY1Dw" target="_blank" rel="noopener">
         <div class="demo-card-media">
           <img src="{{ '/assets/images/ibm_bob_mcp_youtube_thumbnail.png' | relative_url }}" width="800" height="450" alt="How to set up IBM Bob with MCP server — Red Hat Ansible Automation Platform" loading="lazy" />
         </div>
