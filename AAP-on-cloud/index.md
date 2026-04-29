@@ -6,7 +6,9 @@ theme: aap-on-cloud
 
 <section class="theme-page theme-cloud">
   <h2 class="cloud-page-title">Cloud automation</h2>
-  <div class="demo-card-grid">
+  <div class="demo-section">
+    <h3 class="demo-section-title">Interactive experiences</h3>
+    <div class="demo-card-grid">
     <a class="demo-card" href="https://interact.redhat.com/share/QIkx7TMuu22RDi0nUjRA" target="_blank" rel="noopener">
       <div class="demo-card-media">
         <img src="{{ '/assets/images/aiops_self_healing_infrastructure_aap.png' | relative_url }}" width="800" height="450" alt="AIOps: Self-healing infrastructure with AAP — Red Hat Ansible Automation Platform" loading="lazy" />
@@ -77,5 +79,6 @@ theme: aap-on-cloud
       <h3 class="demo-card-title">Getting set up with AAP on Azure: Managed Application</h3>
       <p class="demo-card-desc">Prerequisites through post-deployment for Ansible Automation Platform on Azure.</p>
     </a>
+    </div>
   </div>
 </section>

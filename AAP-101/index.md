@@ -6,7 +6,9 @@ theme: aap-101
 
 <section class="theme-page theme-cloud">
   <h2 class="cloud-page-title">Red Hat Ansible 101</h2>
-  <div class="demo-card-grid">
+  <div class="demo-section">
+    <h3 class="demo-section-title">Interactive experiences</h3>
+    <div class="demo-card-grid">
     <a class="demo-card" href="https://interact.redhat.com/share/WLz8bjVZ1Tw1ie8KBv7f" target="_blank" rel="noopener">
       <div class="demo-card-media">
         <img src="{{ '/assets/images/aap_deploy_remove_apps_rhel.png' | relative_url }}" width="800" height="450" alt="AAP: Deploy and remove apps on RHEL" loading="lazy" />
@@ -28,5 +30,6 @@ theme: aap-101
       <h3 class="demo-card-title">Provision Ansible in Developer Sandbox</h3>
       <p class="demo-card-desc">Provision a personal Ansible Automation Platform instance in the Red Hat Developer Sandbox, activate with your Red Hat account, and explore use cases in minutes.</p>
     </a>
+    </div>
   </div>
 </section>

@@ -6,7 +6,9 @@ theme: aiops
 
 <section class="theme-page theme-cloud">
   <h2 class="cloud-page-title">AIOps with Red Hat Ansible</h2>
-  <div class="demo-card-grid">
+  <div class="demo-section">
+    <h3 class="demo-section-title">Interactive experiences</h3>
+    <div class="demo-card-grid">
     <a class="demo-card" href="https://interact.redhat.com/share/kCuEEAIeU2a8plQcDALz" target="_blank" rel="noopener">
       <div class="demo-card-media">
         <img src="{{ '/assets/images/automation_for_aiops.png' | relative_url }}" width="800" height="450" alt="Automation for AIOps — Red Hat Ansible Automation Platform" loading="lazy" />
@@ -31,5 +33,6 @@ theme: aiops
       <h3 class="demo-card-title">Splunk AIOps — Event-Driven Ansible</h3>
       <p class="demo-card-desc">Splunk AIOps and Event-Driven Ansible — interactive lab.</p>
     </a>
+    </div>
   </div>
 </section>

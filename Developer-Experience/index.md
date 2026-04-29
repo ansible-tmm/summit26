@@ -8,7 +8,7 @@ theme: developer-experience
   <h2 class="cloud-page-title">Developer experience</h2>
 
   <div class="demo-section">
-    <h3 class="demo-section-title">Arcade &amp; guided labs</h3>
+    <h3 class="demo-section-title">Interactive experiences</h3>
     <div class="demo-card-grid">
       <a class="demo-card" href="https://app.arcade.software/share/iKoPpilaNueRFTUzWnqL?ref=share-link" target="_blank" rel="noopener">
         <div class="demo-card-media">

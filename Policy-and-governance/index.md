@@ -6,7 +6,9 @@ theme: policy-governance
 
 <section class="theme-page theme-cloud">
   <h2 class="cloud-page-title">Governance &amp; compliance</h2>
-  <div class="demo-card-grid">
+  <div class="demo-section">
+    <h3 class="demo-section-title">Interactive experiences</h3>
+    <div class="demo-card-grid">
     <a class="demo-card" href="https://interact.redhat.com/share/kS1DsZIb5aqO9s5rvw7T" target="_blank" rel="noopener">
       <div class="demo-card-media demo-card-media-placeholder booth-placeholder" aria-hidden="true"></div>
       <h3 class="demo-card-title">Red Hat Ansible Automation Platform for security automation</h3>
@@ -34,5 +36,6 @@ theme: policy-governance
       <h3 class="demo-card-title">AI developer governance with Ansible Automation Platform</h3>
       <p class="demo-card-desc">Interactive lab (content still being finalized — placeholder in source spreadsheet).</p>
     </a>
+    </div>
   </div>
 </section>

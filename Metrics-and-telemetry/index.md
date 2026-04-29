@@ -6,7 +6,9 @@ theme: metrics-telemetry
 
 <section class="theme-page theme-cloud">
   <h2 class="cloud-page-title">Automation ROI</h2>
-  <div class="demo-card-grid">
+  <div class="demo-section">
+    <h3 class="demo-section-title">Interactive experiences</h3>
+    <div class="demo-card-grid">
     <a class="demo-card" href="https://app.arcade.software/share/rRlctHhxxxojPuls1oui?ref=share-link" target="_blank" rel="noopener">
       <div class="demo-card-media">
         <img src="{{ '/assets/images/dashboard_installation.jpg' | relative_url }}" width="800" height="450" alt="Ansible Automation Dashboard Installation" loading="lazy" />
@@ -21,5 +23,6 @@ theme: metrics-telemetry
       <h3 class="demo-card-title">Automation Dashboard</h3>
       <p class="demo-card-desc">This on-premise utility provides real-time insights to help you make smarter, data-driven decisions by making it easier than ever to monitor, measure, and report on the impact of your automation.</p>
     </a>
+    </div>
   </div>
 </section>

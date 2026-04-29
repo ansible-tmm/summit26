@@ -6,7 +6,9 @@ theme: infrastructure-network
 
 <section class="theme-page theme-cloud">
   <h2 class="cloud-page-title">Network &amp; infrastructure</h2>
-  <div class="demo-card-grid">
+  <div class="demo-section">
+    <h3 class="demo-section-title">Interactive experiences</h3>
+    <div class="demo-card-grid">
     <a class="demo-card" href="https://interact.redhat.com/share/lCIPelhAv2BaMTmlVUF5" target="_blank" rel="noopener">
       <div class="demo-card-media demo-card-media-placeholder booth-placeholder" aria-hidden="true"></div>
       <h3 class="demo-card-title">Virtualization infrastructure automation with Red Hat Ansible</h3>
@@ -31,5 +33,6 @@ theme: infrastructure-network
       <h3 class="demo-card-title">Network automation with AAP</h3>
       <p class="demo-card-desc">Automate from datacenter to edge—multivendor network reports, interfaces, VLANs, and configs for visibility and efficiency.</p>
     </a>
+    </div>
   </div>
 </section>
