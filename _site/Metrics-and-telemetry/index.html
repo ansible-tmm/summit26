@@ -455,6 +455,59 @@
         border: none;
         color-scheme: light;
       }
+      .booth-demo-frame-wrap iframe[hidden] {
+        display: none;
+      }
+      .booth-demo-fallback {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 24px 28px;
+        text-align: center;
+        background: #fafafa;
+        overflow: auto;
+      }
+      .booth-demo-fallback[hidden] {
+        display: none !important;
+      }
+      .booth-demo-fallback-lead {
+        margin: 0;
+        max-width: 36rem;
+        font-family: var(--font-text);
+        font-size: 0.95rem;
+        line-height: 1.5;
+        color: #4f5255;
+      }
+      .booth-demo-fallback-hint {
+        margin: 0;
+        max-width: 32rem;
+        font-family: var(--font-text);
+        font-size: 0.875rem;
+        color: #6a6e73;
+      }
+      .booth-demo-launch {
+        margin-top: 0.25rem;
+        font-family: var(--font-text);
+        font-size: 1rem;
+        font-weight: 700;
+        color: #fff;
+        background: #ee0000;
+        border: 1px solid #c00;
+        border-radius: 8px;
+        padding: 12px 22px;
+        cursor: pointer;
+      }
+      .booth-demo-launch:hover {
+        background: #cc0000;
+      }
+      .booth-demo-launch:focus-visible {
+        outline: 2px solid #06c;
+        outline-offset: 2px;
+      }
     </style>
     <link rel="stylesheet" href="/summit-booth-themes/assets/css/rh-typography.css">
   </head>
@@ -536,7 +589,25 @@
           </div>
         </div>
         <div class="booth-demo-frame-wrap">
-          <iframe id="booth-demo-iframe" title="" src="about:blank" referrerpolicy="strict-origin-when-cross-origin" allow="clipboard-write; fullscreen" loading="lazy"></iframe>
+          <iframe
+            id="booth-demo-iframe"
+            title=""
+            src="about:blank"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="clipboard-write; fullscreen"
+            loading="lazy"
+          ></iframe>
+          <div id="booth-demo-fallback" class="booth-demo-fallback" hidden>
+            <p class="booth-demo-fallback-lead">
+              Red Hat Interact blocks running these guided experiences inside an embedded frame on external sites (standard browser security). The demo itself is fine — it just needs to open in its own tab.
+            </p>
+            <p class="booth-demo-fallback-hint">
+              Use the button below, or <strong>Open in new tab</strong> above.
+            </p>
+            <button type="button" id="booth-demo-launch" class="booth-demo-launch">
+              Open guided experience
+            </button>
+          </div>
         </div>
       </div>
     </div>

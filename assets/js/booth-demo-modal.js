@@ -1,5 +1,6 @@
 /**
  * Open Interact / Arcade / YouTube (and full ansible-f1 theme pages) in-page like the Built to Automate billboard overlay.
+ * Note: interact.redhat.com forbids iframe embedding on third-party origins — those URLs use an in-modal launch panel instead.
  */
 (function () {
   "use strict";
@@ -29,13 +30,19 @@
         return u.toString();
       }
 
-      if (host.indexOf("interact.redhat.com") !== -1) {
-        return u.toString();
-      }
-
       return u.toString();
     } catch {
       return raw;
+    }
+  }
+
+  /** @param {string} href */
+  function isInteractUrl(href) {
+    try {
+      var u = new URL(href, window.location.href);
+      return u.hostname.replace(/^www\./, "").indexOf("interact.redhat.com") !== -1;
+    } catch {
+      return false;
     }
   }
 
@@ -60,6 +67,8 @@
     var iframe = document.getElementById("booth-demo-iframe");
     var titleEl = document.getElementById("booth-demo-title");
     var externalLink = document.getElementById("booth-demo-open-external");
+    var fallback = document.getElementById("booth-demo-fallback");
+    var launchBtn = document.getElementById("booth-demo-launch");
     if (!overlay || !iframe || !titleEl) return;
 
     var lastFocus = null;
@@ -67,8 +76,11 @@
     function closeModal() {
       overlay.classList.add("hidden");
       overlay.setAttribute("aria-hidden", "true");
+      overlay.removeAttribute("data-demo-url");
       iframe.removeAttribute("src");
+      iframe.removeAttribute("hidden");
       iframe.title = "";
+      if (fallback) fallback.setAttribute("hidden", "");
       document.body.classList.remove("booth-demo-open");
       if (lastFocus && typeof lastFocus.focus === "function") {
         lastFocus.focus();
@@ -84,16 +96,43 @@
         "Demo";
       lastFocus = document.activeElement;
       titleEl.textContent = title;
-      iframe.title = title;
-      iframe.src = toIframeSrc(href);
+      overlay.setAttribute("data-demo-url", href);
+
       if (externalLink) {
         externalLink.href = href;
       }
+
+      var useInteractFallback = isInteractUrl(href);
+
+      if (useInteractFallback && fallback) {
+        iframe.removeAttribute("src");
+        iframe.setAttribute("hidden", "");
+        iframe.title = title;
+        fallback.removeAttribute("hidden");
+      } else {
+        if (fallback) fallback.setAttribute("hidden", "");
+        iframe.removeAttribute("hidden");
+        iframe.title = title;
+        iframe.src = toIframeSrc(href);
+      }
+
       overlay.classList.remove("hidden");
       overlay.setAttribute("aria-hidden", "false");
       document.body.classList.add("booth-demo-open");
-      var closeBtn = overlay.querySelector(".booth-demo-close");
-      if (closeBtn) closeBtn.focus();
+
+      if (useInteractFallback && launchBtn) {
+        launchBtn.focus();
+      } else {
+        var closeBtn = overlay.querySelector(".booth-demo-close");
+        if (closeBtn) closeBtn.focus();
+      }
+    }
+
+    if (launchBtn) {
+      launchBtn.addEventListener("click", function () {
+        var u = overlay.getAttribute("data-demo-url");
+        if (u) window.open(u, "_blank", "noopener,noreferrer");
+      });
     }
 
     document.addEventListener(
