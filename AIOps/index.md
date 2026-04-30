@@ -17,7 +17,9 @@ theme: aiops
       <p class="demo-card-desc">See how Ansible Automation Platform powers AIOps by combining AI insights with automated remediation. This lab walks through detecting issues, integrating with ServiceNow and Lightspeed, and enabling self-healing infrastructure.</p>
     </a>
     <a class="demo-card" href="https://interact.redhat.com/share/iv4MGA8BVPeEtdjNYmBM" target="_blank" rel="noopener">
-      <div class="demo-card-media demo-card-media-placeholder instana-accent" aria-hidden="true"></div>
+      <div class="demo-card-media">
+        <img src="{{ '/assets/images/unlock_aiops_instana_aap_arcade.png' | relative_url }}" width="800" height="450" alt="Unlock AIOps with Instana and Ansible Automation Platform — Red Hat Ansible Automation Platform" loading="lazy" />
+      </div>
       <h3 class="demo-card-title">Unlock AIOps with IBM Instana and Ansible Automation Platform</h3>
       <p class="demo-card-desc">Interactive walkthrough: Unlock AIOps with IBM Instana and Ansible Automation Platform.</p>
     </a>

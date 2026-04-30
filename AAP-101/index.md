@@ -23,7 +23,7 @@ theme: aap-101
       <h3 class="demo-card-title">Automation intelligent assistant</h3>
       <p class="demo-card-desc">Use the automation intelligent assistant (formerly Ansible Lightspeed) as an in-product chat: ask questions, explore examples, and jump to docs from the UI.</p>
     </a>
-    <a class="demo-card" href="https://interact.redhat.com/share/tE9tlgwEwnXUUqqUWxW5" target="_blank" rel="noopener">
+    <a class="demo-card" href="https://app.arcade.software/share/tE9tlgwEwnXUUqqUWxW5?ref=share-link" target="_blank" rel="noopener">
       <div class="demo-card-media">
         <img src="{{ '/assets/images/provision_ansible_dev_sandbox.png' | relative_url }}" width="800" height="450" alt="Provision Ansible in Developer Sandbox — Red Hat Ansible Automation Platform" loading="lazy" />
       </div>
