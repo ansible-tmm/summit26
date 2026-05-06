@@ -1,9 +1,9 @@
 title: Red Hat Ansible
 description: Ansible booth demos and arcade content.
 theme: jekyll-theme-dinky
-# GitHub project page: https://<user>.github.io/summit-booth-themes/
-baseurl: "/summit-booth-themes"
-url: ""
+# GitHub Pages: https://ansible-tmm.github.io/summit26/
+baseurl: "/summit26"
+url: "https://ansible-tmm.github.io"
 # Built to Automate (ansible-f1) — theme paths must match _data/race.yml
 ansible_f1_game_base: "https://ansible-tmm.github.io/ansible-f1"
 kramdown:
