@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Workflow orchestration — Red Hat Ansible</title>
+    <meta name="description" content="Ansible booth demos and arcade content.">
+    <meta property="og:title" content="Workflow orchestration — Red Hat Ansible">
+    <meta property="og:description" content="Ansible booth demos and arcade content.">
+    <meta property="og:type" content="website">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -253,6 +257,150 @@
         line-height: 1.6;
         font-family: var(--font-text);
       }
+      /* Home landing */
+      .landing-page {
+        font-family: var(--font-text);
+      }
+      .landing-hero {
+        background: linear-gradient(135deg, #1a1d21 0%, #2d333b 48%, #3d2428 100%);
+        color: #fff;
+        border-radius: 10px;
+        padding: 28px 24px 32px;
+        margin: 0 0 28px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+      }
+      .landing-hero-title {
+        margin: 0 0 12px;
+        font-family: var(--font-display);
+        font-size: clamp(1.5rem, 4vw, 2rem);
+        font-weight: 700;
+        letter-spacing: -0.03em;
+        line-height: 1.15;
+      }
+      .landing-hero-lead {
+        margin: 0 0 20px;
+        max-width: 38rem;
+        font-size: 1.05rem;
+        line-height: 1.5;
+        color: rgba(255, 255, 255, 0.88);
+      }
+      .landing-hero-actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        align-items: center;
+      }
+      .landing-cta {
+        display: inline-block;
+        font-family: var(--font-text);
+        font-size: 0.95rem;
+        font-weight: 700;
+        text-decoration: none;
+        padding: 11px 18px;
+        border-radius: 8px;
+        border: 1px solid transparent;
+        transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+      }
+      .landing-cta-primary {
+        color: #fff;
+        background: #ee0000;
+        border-color: #c00;
+      }
+      .landing-cta-primary:hover {
+        background: #cc0000;
+        color: #fff;
+      }
+      .landing-cta-secondary {
+        color: #151515;
+        background: #fff;
+        border-color: #d2d2d2;
+      }
+      .landing-cta-secondary:hover {
+        background: #f5f5f5;
+        color: #151515;
+      }
+      .landing-cta:focus-visible {
+        outline: 2px solid #fff;
+        outline-offset: 3px;
+      }
+      .landing-cta-secondary:focus-visible {
+        outline-color: #06c;
+      }
+      .landing-themes {
+        margin: 0;
+      }
+      .landing-section-title {
+        margin: 0 0 16px;
+        font-family: var(--font-display);
+        font-size: 1.25rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        color: #151515;
+      }
+      .landing-theme-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 16px;
+        align-items: stretch;
+      }
+      @media (max-width: 520px) {
+        .landing-theme-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      a.landing-theme-card {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        border: 1px solid #d2d2d2;
+        border-radius: 8px;
+        background: #fff;
+        text-decoration: none;
+        color: inherit;
+        overflow: hidden;
+        transition: box-shadow 0.2s ease, border-color 0.2s ease;
+      }
+      a.landing-theme-card:hover {
+        border-color: #b8bbbe;
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+      }
+      a.landing-theme-card:focus-visible {
+        outline: 2px solid #06c;
+        outline-offset: 2px;
+      }
+      .landing-theme-card-accent {
+        flex-shrink: 0;
+        width: 5px;
+        background: var(--landing-accent, #ee0000);
+      }
+      .landing-theme-card-body {
+        padding: 14px 16px;
+        flex: 1;
+        min-width: 0;
+      }
+      .landing-theme-card-title {
+        margin: 0 0 6px;
+        font-family: var(--font-display);
+        font-size: 1.05rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        line-height: 1.25;
+        color: #151515;
+      }
+      .landing-theme-card-desc {
+        margin: 0;
+        font-size: 0.875rem;
+        line-height: 1.45;
+        color: #6a6e73;
+      }
+      .landing-theme-card--aiops { --landing-accent: #ee0000; }
+      .landing-theme-card--workflows { --landing-accent: #0066cc; }
+      .landing-theme-card--devx { --landing-accent: #f5b041; }
+      .landing-theme-card--gov { --landing-accent: #5cb85c; }
+      .landing-theme-card--infra { --landing-accent: #3388aa; }
+      .landing-theme-card--cloud { --landing-accent: #a855f7; }
+      .landing-theme-card--roi { --landing-accent: #14b8a6; }
+      .landing-theme-card--101 { --landing-accent: #ec4899; }
       h3 {
         margin-bottom: 8px;
         font-family: var(--font-text);
@@ -638,12 +786,14 @@
   <h2 class="cloud-page-title">Workflow orchestration</h2>
 
   <div class="demo-section">
-    <h3 class="demo-section-title">YouTube</h3>
+    <h3 class="demo-section-title">Interactive experiences</h3>
     <div class="demo-card-grid">
-      <a class="demo-card" href="https://ansible-tmm.github.io/ansible-f1/Workflows/" target="_blank" rel="noopener">
-        <div class="demo-card-media demo-card-media-placeholder booth-placeholder" aria-hidden="true"></div>
-        <h3 class="demo-card-title">Workflow orchestration demos</h3>
-        <p class="demo-card-desc">Play the Built to Automate track for this theme; full arcade links will be published here when ready.</p>
+      <a class="demo-card" href="https://app.arcade.software/share/raKv3vTXd9wPndiAUpEJ?ref=share-link" target="_blank" rel="noopener">
+        <div class="demo-card-media">
+          <img src="/summit26/assets/images/automation_orchestrator_arcade.png" width="800" height="450" alt="Automation orchestrator — Red Hat Ansible Automation Platform" loading="lazy" />
+        </div>
+        <h3 class="demo-card-title">Automation orchestrator</h3>
+        <p class="demo-card-desc">In this arcade, you’ll see multimodal automation in action as Ansible Automation Platform’s automation orchestrator combines event-driven triggers, existing Ansible playbooks, AI-driven analysis, and human approvals into one workflow that streamlines vulnerability remediation while documenting each step from detection through resolution.</p>
       </a>
     </div>
   </div>
