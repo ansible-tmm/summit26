@@ -12,13 +12,13 @@ theme: home
       Pick a theme to open interactive demos and guided experiences from the Ansible Automation Platform summit booth.
     </p>
     <div class="landing-hero-actions">
-      <a class="landing-cta landing-cta-primary" href="#booth-themes">Browse booth themes</a>
+      <a class="landing-cta landing-cta-primary" href="#demo-themes">Browse demo themes</a>
       <a class="landing-cta landing-cta-secondary" href="{{ site.ansible_f1_game_base }}/">Built to Automate — arcade racing</a>
     </div>
   </section>
 
-  <section id="booth-themes" class="landing-themes" aria-labelledby="themes-heading">
-    <h2 id="themes-heading" class="landing-section-title">Booth themes</h2>
+  <section id="demo-themes" class="landing-themes" aria-labelledby="themes-heading">
+    <h2 id="themes-heading" class="landing-section-title">Demo themes</h2>
     <div class="landing-theme-grid">
       <a class="landing-theme-card landing-theme-card--aiops" href="{{ '/AIOps/' | relative_url }}">
         <span class="landing-theme-card-accent" aria-hidden="true"></span>
