@@ -11,9 +11,9 @@ theme: aap-on-cloud
     <div class="demo-card-grid">
     <a class="demo-card" href="https://app.arcade.software/share/QIkx7TMuu22RDi0nUjRA?ref=share-link" target="_blank" rel="noopener">
       <div class="demo-card-media">
-        <img src="{{ '/assets/images/aiops_self_healing_infrastructure_aap.png' | relative_url }}" width="800" height="450" alt="AIOps: Self-healing infrastructure with AAP — Red Hat Ansible Automation Platform" loading="lazy" />
+        <img src="{{ '/assets/images/aiops_self_healing_google_cloud_infrastructure_aap.png' | relative_url }}" width="800" height="450" alt="AIOps — Self-healing Google Cloud Infrastructure with AAP — Red Hat Ansible Automation Platform" loading="lazy" />
       </div>
-      <h3 class="demo-card-title">AIOps — self-healing infrastructure with AAP</h3>
+      <h3 class="demo-card-title">AIOps — Self-healing Google Cloud Infrastructure with AAP</h3>
       <p class="demo-card-desc">Detect issues, analyze with AI, and auto-remediate with Event-Driven Ansible and Lightspeed-generated playbooks.</p>
     </a>
     <a class="demo-card" href="https://app.arcade.software/share/qYeocEdiSCHFkKXytJMe?ref=share-link" target="_blank" rel="noopener">
