@@ -30,6 +30,13 @@ theme: aap-101
       <h3 class="demo-card-title">Provision Ansible in Developer Sandbox</h3>
       <p class="demo-card-desc">Provision a personal Ansible Automation Platform instance in the Red Hat Developer Sandbox, activate with your Red Hat account, and explore use cases in minutes.</p>
     </a>
+    <a class="demo-card" href="https://app.arcade.software/share/RZM69zpDpc5ymd63pMQv?ref=share-link" target="_blank" rel="noopener">
+      <div class="demo-card-media">
+        <img src="{{ '/assets/images/self_service_automation_portal_arcade.png' | relative_url }}" width="800" height="450" alt="Self-service automation portal — Red Hat Ansible Automation Platform" loading="lazy" />
+      </div>
+      <h3 class="demo-card-title">Self-service automation portal</h3>
+      <p class="demo-card-desc">The self-service automation portal simplifies automation service delivery with a guided, &quot;point-and-click&quot; way for non-Ansible experts to launch pre-approved automation.</p>
+    </a>
     </div>
   </div>
 </section>
